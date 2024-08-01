@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.image {
+}
+
+.article-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.article__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.article-box:hover .article__title {
+  color: var(--hover-text);
+}
